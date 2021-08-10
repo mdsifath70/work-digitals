@@ -1,0 +1,52 @@
+/*--------------------- all responsive CSS CODE ---------------------*/
+@media (min-width: 350px) and (max-width: 575.5px) {
+  .portfolio__content-item,
+  .order__content-prices {
+    margin: 0 10vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .navbar-brand {
+    max-width: 18%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .navbar-brand {
+    max-width: 20%;
+  }
+  .order__prices-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .navbar-brand {
+    max-width: 25%;
+  }
+  .section__title {
+    font-size: 2rem;
+  }
+  .section__subtitle {
+    font-size: 0.938rem;
+  }
+  .order__prices-title {
+    font-size: 4rem;
+  }
+  .order-prices__lists-item {
+    line-height: 1.5;
+  }
+  .contact__socials-icon .fab {
+    margin: 1rem;
+  }
+  .orders__data-title br {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .header .navbar-brand {
+    max-width: 7rem;
+  }
+}
